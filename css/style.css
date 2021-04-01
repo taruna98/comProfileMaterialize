@@ -1,0 +1,147 @@
+.slider h3, .slider h5, .clients {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+:root {
+    --cw: 25px;
+    --ch: 25px;
+    --trf: rotate(360deg);
+    --trs: 1.5s;
+    --opc: 0%;
+    --opcH: 100%
+}
+
+.content {
+    width: 10%;
+}
+
+/* animation1 */
+.about .container .row .cube1 {
+    width: var(--cw);
+    height: var(--ch);
+    margin-top: -17px;
+    background-color: white;
+    transition: var(--trs);
+    opacity: var(--opc);
+}
+
+.about .container .row .content:hover .cube1 {
+    transform: var(--trf);
+    border-radius: 50%;
+    margin-left: 105px;
+    background-color: lightblue;
+    opacity: var(--opcH);
+}
+
+.about .container .row .line1 {
+    width: 30px;
+    height: 8px;
+    background-color: greenyellow;
+    transition: 1.2s;
+    opacity: 20%;
+}
+
+.about .container .row .content:hover .line1 {
+    transform: scaleX(3.5);
+    border-radius: 10%;
+    margin-left: 38px;
+    background-color: greenyellow;
+    opacity: var(--opcH);
+}
+
+/* animation2 */
+.about .container .row .cube2 {
+    width: var(--cw);
+    height: var(--ch);
+    margin-top: -17px;
+    background-color: white;
+    transition: var(--trs);
+    opacity: var(--opc);
+}
+
+.about .container .row .content:hover .cube2 {
+    transform: var(--trf);
+    border-radius: 50%;
+    margin-left: 108px;
+    background-color:lightblue;
+    opacity: var(--opcH);
+}
+
+.about .container .row .line2 {
+    width: 30px;
+    height: 8px;
+    background-color: greenyellow;
+    transition: 1.2s;
+    opacity: 20%;
+}
+
+.about .container .row .content:hover .line2 {
+    transform: scaleX(3.7);
+    border-radius: 10%;
+    margin-left: 38px;
+    background-color: greenyellow;
+    opacity: var(--opcH);
+}
+
+/* animation3 */
+.about .container .row .cube3 {
+    width: var(--cw);
+    height: var(--ch);
+    margin-top: -17px;
+    background-color: white;
+    transition: var(--trs);
+    opacity: var(--opc);
+}
+
+.about .container .row .content:hover .cube3 {
+    transform: var(--trf);
+    border-radius: 50%;
+    margin-left: 150px;
+    background-color: lightblue;
+    opacity: var(--opcH);
+}
+
+.about .container .row .line3 {
+    width: 30px;
+    height: 8px;
+    background-color: greenyellow;
+    transition: 1.2s;
+    opacity: 20%;
+}
+
+.about .container .row .content:hover .line3 {
+    transform: scaleX(5);
+    border-radius: 10%;
+    margin-left: 60px;
+    background-color: greenyellow;
+    opacity: var(--opcH);
+}
+
+/* parallax */
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 150px;
+    filter: drop-shadow(2px 2px 1px rgba(0, 0, 0, 0.8));
+}
+
+/* services */
+.services .row i {
+    margin-top: 20px;
+}
+
+.services .row p {
+    margin-top: -20px;
+}
+
+/* footer */
+section, footer {
+    padding: 20px 0;
+}
